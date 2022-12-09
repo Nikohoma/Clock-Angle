@@ -13,7 +13,7 @@ minute_angle=6*min
 diff=abs(hour_angle-minute_angle)
 
 if diff<=180:
-    print("Shorter angle between hour hand and minute hand=",diff)
+    print("Shorter angle between hour hand & minute hand=",diff)
 else:
     print("Shorter angle between hour hand and minute hand=",360-diff)
 
